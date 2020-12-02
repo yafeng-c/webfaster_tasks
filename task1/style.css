@@ -1,0 +1,69 @@
+body {
+  font-family: "nunito", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_title {
+  display: flex;
+  align-items: center;
+}
+
+.header_name {
+  display: flex;
+}
+
+.header_name1 {
+  color: #f0431e;
+}
+.header_name2 {
+  color: #8b1b8f;
+}
+
+.header_name h1 {
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #6c757d;
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.edit textarea {
+  width: 400px;
+  min-height: 40vh;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.buttons button {
+  background-color: #eeeeee;
+  border-radius: 8px;
+  width: 80px;
+  height: 40px;
+  border: none;
+  color: #75839e;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+table {
+  border-radius: 2px;
+  background-color: #eeeeee;
+  color: #75839e;
+}
